@@ -50,17 +50,17 @@ Este documento rastrea el progreso del desarrollo de la aplicación "Gestor de T
 - [x] **Conexión DB:** Configurar `database.py` con SQLAlchemy Engine y SessionLocal.
 
 ### 2.2 Modelado de Datos
-- [ ] **ORM Models (`models.py`):** Mapear tabla SQL a clases Python (SQLAlchemy).
-- [ ] **Schemas (`schemas.py`):** Definir contratos de datos y validación (Pydantic).
+- [x] **ORM Models (`models.py`):** Mapear tabla SQL a clases Python (SQLAlchemy).
+- [x] **Schemas (`schemas.py`):** Definir contratos de datos y validación (Pydantic).
 
 ### 2.3 Lógica de Negocio (CRUD)
-- [ ] **Repositorio (`crud.py`):** Funciones para Leer, Crear, Actualizar y Borrar tareas (aislando la DB de la API).
-- [ ] **Rutas (`routers/tareas.py`):** Definir endpoints HTTP (`GET`, `POST`, `PUT`, `DELETE`).
-- [ ] **Inyección de Dependencias:** Usar `get_db` en las rutas.
+- [x] **Repositorio (`crud.py`):** Funciones para Leer, Crear, Actualizar y Borrar tareas (aislando la DB de la API).
+- [x] **Rutas (`routers/tareas.py`):** Definir endpoints HTTP (`GET`, `POST`, `PUT`, `DELETE`).
+- [x] **Inyección de Dependencias:** Usar `get_db` en las rutas.
 
 ### 2.4 Configuración Avanzada
-- [ ] **CORS:** Configurar middleware para permitir peticiones desde Angular (localhost:4200).
-- [ ] **Refactorización:** Asegurar que `main.py` esté limpio e incluya los routers.
+- [x] **CORS:** Configurar middleware para permitir peticiones desde Angular (localhost:4200).
+- [x] **Refactorización:** Asegurar que `main.py` esté limpio e incluya los routers.
 
 ---
 
